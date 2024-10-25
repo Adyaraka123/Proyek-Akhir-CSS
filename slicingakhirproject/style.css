@@ -7,6 +7,7 @@
     rgba(70, 149, 245, 1) 60%,
     rgb(185, 226, 236) 100%
   );
+  margin-bottom: 700px;
 }
 
 .navigasi {
@@ -99,14 +100,51 @@
 /* Manajemen */
 
 .container {
-    background-color: white;
+  background: rgb(83, 179, 245);
+  background: linear-gradient(
+    0deg,
+    rgba(83, 179, 245, 1) 32%,
+    rgba(141, 206, 250, 1) 45%,
+    rgba(243, 243, 255, 1) 67%
+  );
+  height: 1000px;
 }
 
 .container-kecil {
-    margin-top: -60px;
-    border-radius: 200px;
-    background-color: blue;
-   
-    margin-left: 100px;
-    margin-right: 100px;
+  border-radius: 100px;
+  background-color: rgb(167, 67, 67);
+  margin-top: -00px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
+.container-kecil  h1{
+  width: 600px;
+  font-family: Inter;
+  margin-left: 350px;
+  justify-content: center;
+  
+  text-align:center;
+  
+}
+.container-kecil span {
+  color: rgb(255, 74, 74);
+  color: linear-gradient(
+    95deg,
+    rgba(255, 74, 74, 1) 43%,
+    rgba(255, 107, 107, 1) 72%
+  );
+}
+
+.gambar-container {
+  
+  margin-left: 200px;
+  margin-right:200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gambar-container img {
+ margin-right: 20px; 
+ margin-bottom: 20px;
+}
+
