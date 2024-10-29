@@ -7,11 +7,11 @@
     rgba(70, 149, 245, 1) 60%,
     rgb(185, 226, 236) 100%
   );
-  margin-bottom: 700px;
+  margin-bottom: -00px;
 }
 
 .navigasi {
-  margin-left: 380px;
+  margin-left: 370px;
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
@@ -33,11 +33,11 @@
   border-radius: 20px;
   height: 40px;
   border: none;
-  background: rgb(79, 158, 254);
+  background: rgb(44, 155, 243);
   background: linear-gradient(
-    95deg,
-    rgba(79, 158, 254, 1) 43%,
-    rgba(90, 182, 230, 1) 72%
+    107deg,
+    rgba(44, 155, 243, 1) 76%,
+    rgba(255, 255, 255, 1) 96%
   );
   font-size: 16px;
 }
@@ -107,24 +107,28 @@
     rgba(141, 206, 250, 1) 45%,
     rgba(243, 243, 255, 1) 67%
   );
-  height: 1000px;
 }
 
 .container-kecil {
   border-radius: 100px;
   background-color: rgb(167, 67, 67);
-  margin-top: -00px;
+  margin-bottom: 20px;
   margin-left: 100px;
   margin-right: 100px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-bottom: 200px;
 }
-.container-kecil  h1{
+
+.container-kecil h1 {
+  padding-top: 20px;
   width: 600px;
   font-family: Inter;
   margin-left: 350px;
   justify-content: center;
-  
-  text-align:center;
-  
+  margin-top: 20px;
+  text-align: center;
 }
 .container-kecil span {
   color: rgb(255, 74, 74);
@@ -136,15 +140,101 @@
 }
 
 .gambar-container {
-  
   margin-left: 200px;
-  margin-right:200px;
+  margin-right: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .gambar-container img {
- margin-right: 20px; 
- margin-bottom: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
+/* TENTANG KAMI */
+
+.kami {
+  margin-left: 670px;
+  border: none;
+  width: 190px;
+  height: 40px;
+  /* border-width: 200px; */
+  background-color: #60a0d4;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 17px;
+}
+
+.duakami {
+  display: flex;
+  margin-left: 150px;
+}
+.duakami img {
+  margin-right: 150px;
+}
+
+.paraf h1 {
+  font-family: Inter;
+  width: 450px;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.paraf p {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 240px;
+  margin-bottom: 30px;
+}
+
+.paraf span {
+  color: rgb(255, 74, 74);
+  color: linear-gradient(
+    95deg,
+    rgba(255, 74, 74, 1) 43%,
+    rgba(255, 107, 107, 1) 72%
+  );
+}
+
+.masalah {
+  margin-top: 250px;
+}
+
+.masalah h1 {
+  color: white;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 600;
+}
+.masalah h2 {
+  text-align: center;
+  margin-bottom: 100px;
+  margin-left: 500px;
+  font-family: Inter;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  width: 500px;
+}
+.masalah span {
+  color: rgb(255, 74, 74);
+  color: linear-gradient(
+    95deg,
+    rgba(255, 74, 74, 1) 43%,
+    rgba(255, 107, 107, 1) 72%
+  );
+}
+.masalahgambar{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 250px;
+  width: 1000px;
+
+  
+  
+}
+
+.masalahgambar img {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
