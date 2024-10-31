@@ -234,7 +234,7 @@
   flex-wrap: wrap;
   margin-left: 250px;
   width: 1000px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .masalahgambar img {
@@ -258,21 +258,95 @@
   );
 }
 
-.mari p {
+.mari {
   font-family: Inter;
   text-align: center;
+}
+
+.mari h1 {
+  font-size: 30px;
+  margin-bottom: 50px;
 }
 
 .adj {
   margin-left: 370px;
   width: 750px;
-  font-size: 20px;
+  font-size: 17px;
   color: white;
   font-family: Inter;
   text-align: center;
+  margin-bottom: 50px;
 }
 .adj span {
   font-weight: 600;
   color: white;
   font-family: Inter;
 }
+
+.hubungiwa {
+  font-family: Inter;
+  color: white;
+  border: none;
+  background: rgb(255, 74, 74);
+  background: linear-gradient(
+    107deg,
+    rgba(255, 74, 74, 1) 76%,
+    rgba(255, 107, 107, 1) 96%
+  );
+  font-size: 22px;
+  width: 234px;
+  height: 45px;
+  border-radius: 50px;
+  margin-bottom: 200px;
+}
+
+.keunggulan-fitur {
+  margin-bottom: -25px;
+  padding-left: 40px;
+  height: 50px;
+  padding-top: 20px;
+  color: #2c9bf3;
+  font-weight: 600;
+  font-family: Inter;
+  margin-left: 320px;
+  margin-right: 950px;
+  border-radius: 20px;
+
+  background-color: white;
+}
+
+.lorem-fitur {
+  display: flex;
+  background-color: white;
+  margin-left: 200px;
+  border-radius: 30px;
+  margin-right: 600px;
+  padding-top: -200px;
+  
+}
+
+.checkmark {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.checkmark img {
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.lore-word p {
+ font-family :Inter;
+ font-size: 20px;
+ margin-left: 15px;
+margin-bottom: 30px;
+margin-top: 24px;
+/* padding-bottom: 20px; */
+
+}
+
+
+
+
