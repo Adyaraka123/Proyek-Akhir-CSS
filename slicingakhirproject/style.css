@@ -318,35 +318,40 @@
 .lorem-fitur {
   display: flex;
   background-color: white;
-  margin-left: 200px;
+  margin-left: 100px;
   border-radius: 30px;
-  margin-right: 600px;
+  margin-right: 00px;
   padding-top: -200px;
-  
 }
 
 .checkmark {
+  margin-right: 30px;
+ 
   margin-left: 100px;
   display: flex;
   flex-direction: column;
-  
 }
 
 .checkmark img {
   margin-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
-
+.lore-word hr {
+  width: 400px;
+  margin-right: 270px;
+}
 .lore-word p {
- font-family :Inter;
- font-size: 20px;
- margin-left: 15px;
-margin-bottom: 30px;
-margin-top: 24px;
-/* padding-bottom: 20px; */
 
+  width: 500px;
+  margin-right: 00px;
+  font-family: Inter;
+  font-size: 20px;
+  margin-left: px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  /* padding-bottom: 20px; */
 }
 
-
-
-
+.diflek {
+  display: flex;
+}
